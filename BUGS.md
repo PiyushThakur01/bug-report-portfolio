@@ -20,7 +20,7 @@ All three images should load and render correctly on the page.
 All three images fail to load and show a broken image icon instead.
 
 **Screenshot:**
-![bug-001](./screenshots/bug-001.png)
+![bug-001](./bug-001.png)
 
 ---
 
@@ -42,7 +42,7 @@ The application should handle the error gracefully and show a clear, user-friend
 The page displays a raw "This page returned a 500" message with no further guidance or navigation option back to the main flow.
 
 **Screenshot:**
-![bug-002](./screenshots/bug-002.png)
+![bug-002](./bug-002.png)
 
 ---
 
@@ -65,7 +65,7 @@ The form should visually highlight which specific field(s) are missing/invalid (
 A generic error message appears at the top of the page ("Your username is invalid!"), but neither input field is visually marked, making it harder for a user to immediately see what to fix.
 
 **Screenshot:**
-![bug-003](./screenshots/bug-003.png)
+![bug-003](./bug-003.png)
 
 ---
 
@@ -88,7 +88,7 @@ A clear loading indicator (spinner/progress bar) should be visible immediately a
 There is a brief visible loading bar, but it's small and easy to miss — on a slower connection this could make users think the button click didn't register, and click it again.
 
 **Screenshot:**
-![bug-004](./screenshots/bug-004.png)
+![bug-004](./bug-004.png)
 
 ---
 
@@ -111,8 +111,6 @@ Each product should display its own correct, unique image.
 All product images appear identical/swapped — every item shows the same picture (a red shirt image) instead of its actual product photo.
 
 **Screenshot:**
-![bug-005](./screenshots/bug-005.png)
+![bug-005](./bug-005.png)
 
----
-
-*(This file currently has 5 bugs — that's a solid, complete portfolio. You can stop here, or add BUG-006 later using the same format if you find another issue.)*
+--- 
